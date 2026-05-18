@@ -18,6 +18,22 @@ public class Pet {
         return raca;
     }
 
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
     @Override
     public String toString() {
         return "Nome: " + nome +

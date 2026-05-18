@@ -7,6 +7,14 @@ public class Ave extends Pet {
         this.envergaduraAsa = envergaduraAsa;
     }
 
+    public double getEnvergaduraAsa() {
+        return envergaduraAsa;
+    }
+
+    public void setEnvergaduraAsa(double envergaduraAsa) {
+        this.envergaduraAsa = envergaduraAsa;
+    }
+
     @Override
     public String toString() {
         return "[Ave] " + super.toString() +

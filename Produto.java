@@ -14,6 +14,26 @@ public class Produto {
         return nome;
     }
 
+    public double getValor() {
+        return valor;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+     public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
     @Override
     public String toString() {
         return "Produto: " + nome +

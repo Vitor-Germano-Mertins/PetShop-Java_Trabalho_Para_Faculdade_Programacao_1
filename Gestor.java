@@ -7,6 +7,14 @@ public class Gestor extends Funcionario {
         this.setor = setor;
     }
 
+    public String getSetor() {
+        return setor;
+    }
+
+    public void setSetor(String setor) {
+        this.setor = setor;
+    }
+
     @Override
     public String toString() {
         return "[Gestor] " + super.toString() +

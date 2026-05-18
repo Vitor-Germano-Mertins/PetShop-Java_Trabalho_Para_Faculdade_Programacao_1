@@ -13,6 +13,30 @@ public class Cliente {
         pets = new ArrayList<>();
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public ArrayList<Pet> getPets() {
+        return pets;
+    }
+
+    public void setPets(ArrayList<Pet> pets) {
+        this.pets = pets;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
     public void adicionarPet(Pet pet){
         pets.add(pet);
     }

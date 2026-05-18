@@ -7,6 +7,14 @@ public class Peixe extends Pet {
         this.tipoAgua = tipoAgua;
     }
 
+    public String getTipoAgua() {
+        return tipoAgua;
+    }
+
+    public void setTipoAgua(String tipoAgua) {
+        this.tipoAgua = tipoAgua;
+    }
+
     @Override
     public String toString() {
         return "[Peixe} " + super.toString() +

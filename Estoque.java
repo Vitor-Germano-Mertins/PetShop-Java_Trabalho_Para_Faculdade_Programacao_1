@@ -8,6 +8,14 @@ public class Estoque {
         produtos = new ArrayList<>();
     }
 
+    public ArrayList<Produto> getProdutos() {
+        return produtos;
+    }
+
+    public void setProdutos(ArrayList<Produto> produtos) {
+        this.produtos = produtos;
+    }
+
     public void adicionarProduto(Produto p) {
         produtos.add(p);
     }

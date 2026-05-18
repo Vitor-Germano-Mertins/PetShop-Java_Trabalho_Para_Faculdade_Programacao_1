@@ -7,6 +7,14 @@ public class Mamifero extends Pet {
         this.pelo = pelo;
     }
 
+    public boolean getPelo() {
+        return pelo;
+    }
+
+    public void setPelo(boolean pelo) {
+        this.pelo = pelo;
+    }
+
     @Override
     public String toString() {
         return "[Mamifero] " + super.toString() +
