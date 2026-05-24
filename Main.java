@@ -30,6 +30,7 @@ public class Main {
                 System.out.println("11 - Buscar Funcionário");
                 System.out.println("12 - Remover Cliente");
                 System.out.println("13 - Remover Funcionário");
+                System.out.println("14 - Buscar Produto");
                 System.out.println("0 - Sair");
                 
                 opcao = sc.nextInt();
@@ -315,6 +316,27 @@ public class Main {
                         
                         if(!funcionarioRemovido) {
                             System.out.println("Funcionário não encontrado.");
+                        }
+                    }
+
+                    case 14 -> {
+                        System.out.print("Digite o nome do produto que deseja buscar: ");
+                        String buscaProduto = sc.nextLine();
+                        
+                        boolean encontrouProduto = false;
+
+                        for(Produto p : estoque.getProdutos()) {
+                            
+                            if(p.getNome().equalsIgnoreCase(buscaProduto)) {
+
+                                System.out.println(p);
+
+                                encontrouProduto = true;
+                            }
+                        }
+
+                        if(!encontrouProduto) {
+                            System.out.println("Produto não encontrado.");
                         }
                     }
                     
