@@ -83,6 +83,7 @@ Os produtos são armazenados no estoque utilizando `ArrayList`.
 - Busca de funcionário
 - Remoção de clientes
 - Remoção de Funcionário
+- Busca de produto por nome
 - Associação entre clientes e múltiplos pets
 - Menu interativo utilizando `Scanner`
 
